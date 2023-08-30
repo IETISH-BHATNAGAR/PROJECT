@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+header {
+    width: 100%;
+    /* position: fixed; */
+}
+
+.navbar {
+    width: 100%;
+    height: 90px;
+    background: #F0F0F0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-content: center;
+
+}
+
+
+.left-navbar {
+    display: flex;
+    align-items: center;
+    margin-left: 83px;
+    height: 90px;
+    width: 19%;
+
+}
+
+.right-navbar {
+    width: 12%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 83px;
+}
+
+div.home {
+    height: 32.36602783203125px;
+    width: 30px;
+    left: 1133px;
+    top: 33px;
+    border-radius: 0px;
+    bottom: 96.38%;
+
+}
+
+div.editprofile {
+    height: 32.36602783203125px;
+    width: 30px;
+    left: 1186px;
+    top: 33px;
+    border-radius: 0px;
+    right: 15.56%;
+    bottom: 96.38%;
+
+}
+
+div.notification {
+    height: 33.46559143066406px;
+    width: 31.152099609375px;
+    left: 1237px;
+    top: 31.43359375px;
+    border-radius: 0px;
+    right: 11.93%;
+    bottom: 96.4%;
+}
+
+div.profile img {
+    height: 37px;
+    width: 37px;
+    left: 1291px;
+    top: 28px;
+
+    background: #F0F0F0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 250px;
+}
+
+.collapsible-bar {
+    width: 11%;
+    height: 70%;
+    background: #fdfdfd;
+    box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    border-radius: 0px 15px 15px 0px;
+    margin-top: 3px;
+    /* transition: 0.3s ease-out; */
+}
+
+.rect-cb {
+    width: 100%;
+    height: 50px;
+    background: #000000;
+    border-radius: 0px 15px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.cb-btn {
+    position: absolute;
+    top: auto;
+    right: 20px;
+    background-color: #ffff;
+    border: none;
+    border-radius: 20px;
+}
+
+.fa-solid {
+    margin: 5px;
+}
+
+.cb-content {
+    width: 100%;
+    height: 380px;
+    margin: 1px;
+    border-bottom-right-radius: 15px;
+}
+
+
+
+p.h1 {
+
+    width: 466px;
+    height: 42px;
+    left: 187px;
+    top: 108px;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 42px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #0029FF;
+}
+
+div.below-header {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    height: 37px;
+    padding: 17px;
+}
+
+button.btn1 {
+    height: 36px;
+    width: 121px;
+
+
+    border-color: #0029FF;
+    background: #0029FF;
+    border-radius: 10px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+div.box1 {
+    width: 77%;
+    height: auto;
+    background-color: #E9ECEF;
+    margin: 37px auto;
+    padding: 25px;
+    border-radius: 5px;
+
+}
+
+p.h2 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+p.data1 {
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+
+}
+
+div.boxes {
+    display: flex;
+    justify-content: space-between;
+    margin: 75px 214px;
+    flex-wrap: wrap;
+
+}
+
+div.b1,
+.b2,
+.b3,
+.b4 {
+    height: 400px;
+    width: 48%;
+    margin-bottom: 58px;
+    border-radius: 15px;
+    background: #fdfdfd;
+
+    box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+div.rectb1-1 {
+    width: 100%;
+    height: 50px;
+    background: #000000;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+p.h3 {
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: auto;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+
+}
+
+button.btn2 {
+    width: 23px;
+    height: 23px;
+    margin: 0px 50px 0px -50px;
+    border-radius: 22px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+}
+
+div.rectb1-2 {
+    width: 100%;
+    height: 291px;
+}
+
+p.cb {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 15px;
+    margin: 0;
+}
+
+iframe {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    margin: 1px;
+}
+
+button.tbtn1 {
+    width: 100%;
+    height: 35px;
+
+}
